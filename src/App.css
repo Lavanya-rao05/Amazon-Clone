@@ -1,0 +1,30 @@
+
+body.dark-mode {
+  background-color: #121212; 
+  color: #f0f0f0;            
+  transition: background 0.3s ease;
+}
+
+
+body.dark-mode div {
+  background-color: #121212 !important;   
+  color: #f0f0f0 !important;              
+}
+
+
+body.dark-mode .inner-white {
+  background-color: #fff !important;       
+  color: #000 !important;                  
+}
+
+
+
+.dark-mode .home-section {
+  background-color: #121212; 
+  color: #ffffff;            
+}
+
+.dark-mode .footer {
+  background-color: #1c1c1c; 
+  color: #f0f0f0;
+}

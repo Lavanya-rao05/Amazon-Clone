@@ -1,0 +1,231 @@
+[
+  {
+    "id": 7,
+    "name": "Floral Summer Dress",
+    "category": "Women",
+    "price": "₹4,999",
+    "img": "/assets/womens-dress1.jpeg",
+    "title": "Elegant Floral Dress",
+    "description": "A stylish summer dress with floral patterns, perfect for casual outings or beach days."
+  },
+  {
+    "id": 8,
+    "name": "Denim Jacket",
+    "category": "Women",
+    "price": "₹6,499",
+    "img": "/assets/womens-jacket.jpeg",
+    "title": "Classic Denim Jacket",
+    "description": "Trendy denim jacket with a sleek fit, ideal for casual and semi-formal wear."
+  },
+  {
+    "id": 9,
+    "name": "Casual Dress",
+    "category": "Women",
+    "price": "₹3,999",
+    "img": "/assets/womens-dress2.jpeg",
+    "title": "Chic Casual Dress",
+    "description": "Comfortable and stylish dress, perfect for everyday wear with a modern touch."
+  },
+  {
+    "id": 10,
+    "name": "Womens Sandals",
+    "category": "Women",
+    "price": "₹5,499",
+    "img": "/assets/womens-sandals.jpeg",
+    "title": "Elegant Sandals",
+    "description": "Stylish and comfortable sandals for daily wear, suitable for both casual and formal outfits."
+  },
+  {
+    "id": 10,
+    "name": "Womens Kurtha",
+    "category": "Women",
+    "price": "₹5,499",
+    "img": "/assets/womens-dress3.jpeg",
+    "title": "Traditional Kurtha",
+    "description": "Beautifully designed kurtha with intricate patterns, perfect for festive and formal occasions."
+  },
+
+  {
+    "id": 11,
+    "name": "Leather Jacket",
+    "category": "Men",
+    "price": "₹10,499",
+    "img": "/assets/men-jacket1.jpeg",
+    "title": "Premium Leather Jacket",
+    "description": "High-quality leather jacket with a rugged look, perfect for a stylish winter outfit."
+  },
+  {
+    "id": 12,
+    "name": "Plaid Shirt",
+    "category": "Men",
+    "price": "₹3,299",
+    "img": "/assets/men-shirt1.jpeg",
+    "title": "Casual Plaid Shirt",
+    "description": "Comfortable plaid shirt with a soft fabric, ideal for casual and weekend wear."
+  },
+  {
+    "id": 13,
+    "name": "Men's Shirts",
+    "category": "Men",
+    "price": "₹4,999",
+    "img": "/assets/men-shirt2.jpeg",
+    "title": "Formal Cotton Shirt",
+    "description": "Elegant cotton shirt with a tailored fit, perfect for office and formal events."
+  },
+  {
+    "id": 14,
+    "name": "Men's Hoodie",
+    "category": "Men",
+    "price": "₹6,499",
+    "img": "/assets/men-hoodie.jpeg",
+    "title": "Cozy Winter Hoodie",
+    "description": "Warm and stylish hoodie, perfect for winter wear with a relaxed fit."
+  },
+  {
+    "id": 10,
+    "name": "Mens Shoes",
+    "category": "Men",
+    "price": "₹5,499",
+    "img": "/assets/men-shoes.jpeg",
+    "title": "Stylish Casual Shoes",
+    "description": "Comfortable and trendy shoes, suitable for both casual and semi-formal occasions."
+  },
+
+  {
+    "id": 4,
+    "name": "LG Smart TV",
+    "category": "TV",
+    "price": "₹74,999",
+    "img": "/assets/tv.jpeg",
+    "title": "LG 55-Inch Smart TV",
+    "description": "4K Ultra HD Smart TV with HDR support and built-in streaming apps."
+  },
+  {
+    "id": 15,
+    "name": "Samsung 55-Inch QLED",
+    "category": "TV",
+    "price": "₹1,09,999",
+    "img": "/assets/tv1.jpeg",
+    "title": "Samsung QLED TV",
+    "description": "55-Inch QLED TV with Quantum Dot technology for vibrant colors and sharp contrast."
+  },
+  {
+    "id": 16,
+    "name": "Sony Bravia OLED",
+    "category": "TV",
+    "price": "₹1,34,999",
+    "img": "/assets/tv2.jpeg",
+    "title": "Sony Bravia OLED TV",
+    "description": "Premium OLED TV with stunning visuals, Dolby Vision, and superior sound quality."
+  },
+  {
+    "id": 17,
+    "name": "LG 65-Inch UHD",
+    "category": "TV",
+    "price": "₹99,999",
+    "img": "/assets/tv3.jpeg",
+    "title": "LG UHD TV",
+    "description": "65-Inch UHD Smart TV with HDR10 and AI ThinQ for a smart viewing experience."
+  },
+  {
+    "id": 18,
+    "name": "TCL Roku Smart TV",
+    "category": "TV",
+    "price": "₹37,499",
+    "img": "/assets/tv4.jpeg",
+    "title": "TCL Smart TV",
+    "description": "Affordable Roku Smart TV with Full HD resolution and built-in streaming apps."
+  },
+
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S21",
+    "category": "Smartphone",
+    "price": "₹57,999",
+    "img": "/assets/phone.jpeg",
+    "title": "Samsung Galaxy S21",
+    "description": "Flagship smartphone with a 120Hz display, triple camera setup, and 5G support."
+  },
+  {
+    "id": 19,
+    "name": "iPhone 15 Pro",
+    "category": "Smartphone",
+    "price": "₹1,09,999",
+    "img": "/assets/phone1.jpeg",
+    "title": "Apple iPhone 15 Pro",
+    "description": "Latest iPhone with A17 Bionic chip, improved battery life, and ProMotion display."
+  },
+  {
+    "id": 20,
+    "name": "Google Pixel 8",
+    "category": "Smartphone",
+    "price": "₹82,999",
+    "img": "/assets/phone2.jpeg",
+    "title": "Google Pixel 8",
+    "description": "AI-powered smartphone with superior camera capabilities and a clean Android experience."
+  },
+  {
+    "id": 21,
+    "name": "OnePlus 12",
+    "category": "Smartphone",
+    "price": "₹74,999",
+    "img": "/assets/phone3.jpeg",
+    "title": "OnePlus 12",
+    "description": "Powerful flagship phone with Snapdragon processor and fast charging support."
+  },
+  {
+    "id": 22,
+    "name": "Xiaomi Mi 12",
+    "category": "Smartphone",
+    "price": "₹64,999",
+    "img": "/assets/phone4.jpeg",
+    "title": "Xiaomi Mi 12",
+    "description": "High-performance smartphone with a sleek design and outstanding battery life."
+  },
+
+  {
+    "id": 23,
+    "name": "Apple Watch Series 8",
+    "category": "Electronics",
+    "price": "₹32,999",
+    "img": "/assets/electronics1.jpeg",
+    "title": "Apple Watch Series 8",
+    "description": "Smartwatch with advanced health tracking, fitness features, and always-on display."
+  },
+  {
+    "id": 24,
+    "name": "Amazon Echo Dot",
+    "category": "Electronics",
+    "price": "₹4,499",
+    "img": "/assets/electronics2.jpeg",
+    "title": "Amazon Echo Dot",
+    "description": "Smart speaker with Alexa voice assistant for hands-free control and music streaming."
+  },
+  {
+    "id": 25,
+    "name": "GoPro Hero 11",
+    "category": "Electronics",
+    "price": "₹41,999",
+    "img": "/assets/electronics3.jpeg",
+    "title": "GoPro Hero 11",
+    "description": "Action camera with 5.3K video recording, waterproof design, and HyperSmooth stabilization."
+  },
+  {
+    "id": 26,
+    "name": "Canon DSLR Camera",
+    "category": "Electronics",
+    "price": "₹1,09,999",
+    "img": "/assets/electronics4.jpeg",
+    "title": "Canon DSLR Camera",
+    "description": "Professional-grade DSLR camera with high-resolution sensor and 4K video recording."
+  },
+  {
+    "id": 2,
+    "name": "MacBook Pro 14",
+    "category": "Electronics",
+    "price": "₹1,64,999",
+    "img": "/assets/laptop1.jpeg",
+    "title": "Apple MacBook Pro 14",
+    "description": "High-performance laptop with M2 chip, Retina display, and long battery life."
+  }
+]

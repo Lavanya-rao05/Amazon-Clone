@@ -1,0 +1,150 @@
+.product-list-container {
+  grid-template-columns: repeat(4, minmax(200px, 1fr));  
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;  
+  object-fit: cover;  
+}
+
+.product-title {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.see-more-btn {
+  background: #c7c6c6;
+  color: #333;
+}
+
+.see-more-btn:hover {
+  background: #cfcfcf;
+}
+
+.add-to-cart-btn {
+  background: #007185;
+  color: white;
+}
+
+.add-to-cart-btn:hover {
+  background: #005f63;
+}
+
+.dark-mode-card .see-more-btn {
+  background: #555;
+  color: #fff;
+}
+
+.dark-mode-card .see-more-btn:hover {
+  background: #777;
+}
+
+.dark-mode-card .add-to-cart-btn {
+  background: #c7c6c6;
+  color: #333;
+}
+
+.dark-mode-card .add-to-cart-btn:hover {
+  background: #cfcfcf;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+@media (min-width: 1200px) {
+  .product-list-container {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+  .product-card:nth-child(n + 5) {  
+    display: none;
+  }
+}
+
+
+@media (max-width: 1200px) and (min-width: 854px) {
+  .product-list-container {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  .product-card:nth-child(n + 4) {  
+    display: none;
+  }
+
+  .product-card img {
+    max-height: 130px; 
+  }
+}
+
+@media (max-width: 853px) and (min-width: 769px) {
+  .product-list-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .product-card:nth-child(n + 5) {  
+    display: none;
+  }
+
+  .product-card img {
+    max-height: 130px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .product-list-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .product-card:nth-child(n + 5) {  
+    display: none;
+  }
+
+  .product-card img {
+    max-height: 120px;
+  }
+
+  .btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-list-container {
+    grid-template-columns: 1fr; 
+  }
+
+  .product-card img {
+    max-height: 100px;
+  }
+
+  .btn {
+    width: 100%;                 
+    font-size: 12px;
+  }
+}

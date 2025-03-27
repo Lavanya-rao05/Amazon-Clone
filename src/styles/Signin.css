@@ -1,0 +1,209 @@
+
+ .sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .sign-in-box {
+    background: white;
+    padding: 40px 30px;
+    width: 380px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .amazon-logo-signin {
+    display: block;
+    margin: 0 auto 20px;
+    width: 120px;
+  }
+  
+  .signin-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .signin-input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+  }
+  
+  .signin-input:focus {
+    border-color: #0408f0;
+    outline: none;
+    box-shadow: 0 0 8px rgba(4, 47, 240, 0.5);
+  }
+
+  .continue-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ffd814;
+    color: #111;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .continue-btn:hover {
+    background: #f0c14b;
+  }
+  
+  .create-account-btn {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: #111;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s, border 0.3s;
+    margin-top: 10px;
+  }
+  
+  .create-account-btn:hover {
+    background: #f7f7f7;
+    border-color: #aaa;
+  }
+  
+
+  .terms-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 15px 0;
+  }
+  
+  .terms-text a, .help-link a, .business-link a {
+    color: #007185;
+    text-decoration: none;
+  }
+  
+  .terms-text a:hover, .help-link a:hover, .business-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .separator {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .separator span {
+    background: white;
+    padding: 0 10px;
+    color: #555;
+  }
+  
+  .separator::before, .separator::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    width: 45%;
+  }
+  
+  .separator::before {
+    left: 0;
+  }
+  
+  .separator::after {
+    right: 0;
+  }
+
+  .business-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*Tabs*/
+@media (max-width: 1024px) {
+  .sign-in-box {
+    width: 90%;
+    max-width: 450px;  
+    padding: 35px 25px;
+  }
+
+  .amazon-logo-signin {
+    width: 100px;
+  }
+
+  .continue-btn, .create-account-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .sign-in-container {
+    padding: 10px;    
+  }
+
+  .sign-in-box {
+    width: 95%;
+    padding: 30px 20px;
+  }
+
+  .amazon-logo-signin {
+    width: 80px;
+  }
+
+  .continue-btn, .create-account-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .terms-text {
+    font-size: 12px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+  .sign-in-box {
+    width: 100%;
+    padding: 25px 15px;
+  }
+
+  .amazon-logo-signin {
+    width: 70px;
+  }
+
+  .continue-btn, .create-account-btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .terms-text {
+    font-size: 11px;
+  }
+}

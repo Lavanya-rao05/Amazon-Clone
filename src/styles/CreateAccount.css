@@ -1,0 +1,123 @@
+
+.full-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.form-box {
+  background: white;
+  padding: 40px 30px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.amazon-logo-create {
+  display: block;
+  margin: 0 auto 20px;
+  width: 120px;
+}
+
+.signup-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.signup-input,
+.signup-select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.signup-input:focus,
+.signup-select:focus {
+  border-color: #0804f0;
+  outline: none;
+  box-shadow: 0 0 8px rgba(4, 67, 240, 0.5);
+}
+
+.mobile-input {
+  display: flex;
+  gap: 10px;
+}
+
+.mobile-input select {
+  width: 30%;
+  min-width: 90px;
+}
+
+.verify-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ffd814;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.verify-btn:hover {
+  background: #fcda31;
+}
+
+.info-text,
+.password-note {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.work-link,
+.sign-in {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.work-link a,
+.sign-in a {
+  color: #007185;
+  text-decoration: none;
+}
+
+.work-link a:hover,
+.sign-in a:hover {
+  text-decoration: underline;
+}
+
+input.error, select.error {
+  border: 2px solid #d00; 
+  background: #fef3f3;
+}
+
+.error {
+  color: #d00;
+  font-size: 12px;
+  margin: -5px 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

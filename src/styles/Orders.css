@@ -1,0 +1,137 @@
+
+.orders-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.orders-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab.active {
+  background: #ff9900;
+  color: white;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  border: 1px solid #cfcfcf;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  transition: transform 0.3s;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.products-container-orders {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.product-card-orders {
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: white;
+  transition: 0.3s;
+}
+
+.product-card-orders:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+  width: 100%;
+  max-width: 200px; 
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-info-orders {
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+
+.product-info-orders h4 {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+}
+
+.product-info-orders p {
+  margin: 5px 0;
+  color: black;
+}
+
+.order-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;   
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  background: #c7c6c6;
+  color: #555;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #cfcfcf;
+}
+
+.btn.yellow {
+  background: #ffcc00;
+  color: black;
+}
+
+.btn.yellow:hover {
+  background: #ff9900;
+}

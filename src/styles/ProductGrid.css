@@ -1,0 +1,120 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  ); /* Responsive columns */
+  gap: 20px;
+  padding: 30px;
+  background: #f2f2f2;
+}
+
+.category {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid white;
+}
+
+.category:hover {
+  transform: translateY(-5px);
+}
+
+.category h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.product-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.product-small-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  transition: transform 0.3s;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.product-small-product:hover {
+  transform: translateY(-5px);
+}
+
+.product-small-product img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.product-small-product p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.see-more-btn {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background: #007185;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.see-more-btn:hover {
+  background: #c45500;
+}
+
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-small-product img {
+    max-width: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-small-product img {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-small-product img {
+    max-width: 100px;
+  }
+
+  .see-more-btn {
+    width: 100%;
+  }
+}

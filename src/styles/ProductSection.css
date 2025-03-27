@@ -1,0 +1,22 @@
+.product-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .product-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .see-more {
+    color: #007185;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .see-more:hover {
+    text-decoration: underline;
+  }
+  
