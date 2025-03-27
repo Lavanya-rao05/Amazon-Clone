@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/signin.css";
+import "../styles/Signin.css";
 import amazonLogo from "/assets/AmazonLogo2.png";
 import { useState } from "react";
 

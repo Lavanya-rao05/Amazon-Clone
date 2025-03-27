@@ -6,15 +6,40 @@ A fully responsive Amazon-like E-Commerce Store built with **React, HTML, CSS, B
 
 ## Key Project Features
 
-- **Product Listing & Details:** Display a range of products with filtering and sorting options.  
-- **Search & Filter:** Search by product name and filter by category with combined queries.  
-- **Cart Management:** Add, remove, and update product quantities in the cart.  
-- **Checkout Process:** Display order summary with form validation.  
-- **Theme Switching:** Light and dark mode using React Context API.  
-- **LocalStorage Persistence:** Store cart data to retain selections after page reload.  
-- **Responsive Design:** Mobile, tablet, and desktop-friendly.  
-- **Reusable Components:** Modular components for better code maintainability.  
-- **API Integration:** Uses static JSON files as mock data.  
+### **Features**
+
+**Responsive Design:**  
+- Fully responsive layout using Bootstrap and media queries for desktop, tablet, and mobile views.  
+- Mobile-friendly navigation bar with smooth transitions.  
+
+**Product Listing & Details:**  
+- Displays a grid of products with images, titles, and prices.  
+- Clicking on a product shows detailed information, including description and pricing.  
+
+**Search & Filtering:**  
+- Search products by name.  
+- Filter by category with combined queries for accurate results.  
+
+**Cart Management:**  
+- Add, remove, and update item quantities in the cart.  
+- Cart persistence using LocalStorage to retain selections after page reload.  
+
+**Checkout & Order Summary:**  
+- Checkout form with order summary and total cost display.  
+- Form validation before placing an order.  
+
+**Dark Mode:**  
+- Theme switcher using React Context API.  
+- Saves the preferred theme in LocalStorage for consistency.  
+
+**404 Page:**  
+- Custom 404 page for invalid routes with a back-to-home navigation option.  
+
+**Reusable Components:**  
+- Modular and reusable components for better code maintainability.  
+
+**API Integration:**  
+- Uses static JSON files as mock data for products, simulating real API responses.  
 
 ---
 
@@ -38,8 +63,8 @@ Make sure you have the following installed:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/Lavanya-rao05/ecommerce-store.git
-cd ecommerce-store
+git clone https://github.com/Lavanya-rao05/Amazon-Clone.git
+cd ecommerce-website
 ```
 
 ### Install Dependencies
@@ -48,18 +73,15 @@ Install the required dependencies using:
 npm install
 ```
 
-### Environment Variables
-Create a `.env` file at the root of the project if you have any sensitive API keys or configurations (not required for mock data).
-
 ### Run the Development Server
 Start the app in development mode:
 ```bash
-npm start
+npm run dev
 
 ```
 The app will be available at:  
 ```
-http://localhost:3000
+http://localhost:5173
 ```
 
 ---
@@ -204,9 +226,7 @@ Since this project uses **mock JSON data**, here’s the list of mock APIs:
 npm run build
 ```
 2. Deploy to **Netlify**:
-```bash
-netlify deploy
-```
+
 3. Add your custom domain if required.
 
 ### Continuous Integration
@@ -217,17 +237,4 @@ netlify deploy
 - Use **versioning** or GitHub branches to roll back to the previous working version in case of issues.  
 ---
 
-## Contributing
-Contributions are welcome! If you'd like to enhance this project, feel free to fork the repository, create a new branch, and submit a pull request.
-
----
-
-## Author
-Lavanya Rao  
-[GitHub](https://github.com/Lavanya-rao05)  
-
----
-
-## License
-This project is licensed under the **MIT License**.  
-
+## Demo

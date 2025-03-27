@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/Navbar.css"; // Import the CSS for styling
+import "../styles/NavBar.css";
 import {
   FaSearch,
   FaShoppingCart,
