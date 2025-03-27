@@ -231,12 +231,8 @@ npm run build
 
 3. Add your custom domain if required.
 
-### Continuous Integration
-- Integrate with GitHub Actions or Vercel for CI/CD.  
-- Automatically trigger builds and deployments on new commits.
-
 ### Rollback Plan
-- Use **versioning** or GitHub branches to roll back to the previous working version in case of issues.  
+- Use GitHub branches to roll back to the previous working version in case of issues.  
 ---
 
 
