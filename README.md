@@ -3,6 +3,8 @@
 
 A fully responsive Amazon-like E-Commerce Store built with **React, HTML, CSS, Bootstrap, and JavaScript**. It features product listing, search & filter, cart management, checkout, and dark mode with LocalStorage cart persistence.
 
+## Demo 
+https://amazon-clone-x.netlify.app/
 
 ## Key Project Features
 
@@ -229,12 +231,8 @@ npm run build
 
 3. Add your custom domain if required.
 
-### Continuous Integration
-- Integrate with GitHub Actions or Vercel for CI/CD.  
-- Automatically trigger builds and deployments on new commits.
-
 ### Rollback Plan
-- Use **versioning** or GitHub branches to roll back to the previous working version in case of issues.  
+- Use GitHub branches to roll back to the previous working version in case of issues.  
 ---
 
-## Demo
+
