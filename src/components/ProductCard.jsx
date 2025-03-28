@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
 
         <div className="product-actions inner-white">
           <button
-            className="btn add-to-cart-btn"
+            className="add-to-cart-btn"
             onClick={() => addToCart(product)}
           >
             Add to Cart

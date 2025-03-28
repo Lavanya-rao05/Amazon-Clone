@@ -56,7 +56,7 @@ const categories = [
         id: 1,
         img: "/assets/product2.jpg",
         name: "Bike",
-        price: "₹41,999",
+        price: "₹2,00,000",
         description:
           "High-performance mountain bike with 21-speed gears and disc brakes.",
       },

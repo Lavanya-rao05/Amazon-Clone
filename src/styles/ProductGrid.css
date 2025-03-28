@@ -49,9 +49,7 @@
   padding: 15px;
 }
 
-.product-small-product:hover {
-  transform: translateY(-5px);
-}
+
 
 .product-small-product img {
   width: 100%;
